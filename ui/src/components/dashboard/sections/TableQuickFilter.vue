@@ -75,13 +75,8 @@
     .quick-filters {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         min-height: var(--ks-spacing-6);
-        overflow-x: auto;
-        scrollbar-width: none;
-
-        &::-webkit-scrollbar {
-            display: none;
-        }
     }
 
     .quick-filter-tab {
